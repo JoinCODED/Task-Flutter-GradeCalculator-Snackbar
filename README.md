@@ -2,7 +2,7 @@
 
 ![screenshot](https://user-images.githubusercontent.com/84308096/158198001-e9017006-6726-44d0-8ada-95b709eed7ff.png)
 
-## 🍋 Instructions
+## Instructions
 
 1. Create an app called: grade_calculator.
 2. Create a stateless widget `HomeScreen` with a `Scaffold`.

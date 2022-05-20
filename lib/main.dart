@@ -18,14 +18,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class HomeScreen extends StatefulWidget {
-  HomeScreen({Key? key}) : super(key: key);
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
+class HomeScreen extends StatelessWidget {
   final gradeController = TextEditingController();
 
   String result = "";
@@ -79,9 +72,9 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               onPressed: () {
                 double grade = double.parse(gradeController.text);
-                setState(() {
-                  result = gradeResult(grade);
-                });
+                result = gradeResult(grade);
+                ScaffoldMessenger.of(context)
+                    .showSnackBar(SnackBar(content: Text(result)));
               },
               child: const Padding(
                 padding: EdgeInsets.all(15.0),
