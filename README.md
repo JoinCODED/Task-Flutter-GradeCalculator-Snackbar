@@ -31,15 +31,15 @@ git push -u origin main
 
 Here is the widgets you will need:
 
-[TextField](https://api.flutter.dev/flutter/material/TextField-class.html)
+- [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)
 
-[ElevatedButton](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
+- [ElevatedButton](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
 
-[SnackBar](https://api.flutter.dev/flutter/material/SnackBar-class.html)
+- [SnackBar](https://api.flutter.dev/flutter/material/SnackBar-class.html)
 
-[Column](https://api.flutter.dev/flutter/material/Column-class.html)
+- [Column](https://api.flutter.dev/flutter/material/Column-class.html)
 
-[AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html)
+- [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
 ## Push to Github
 
